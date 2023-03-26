@@ -12,7 +12,7 @@ public class silver_1874 {
 		int N = Integer.parseInt(br.readLine());
 		boolean ok = true;
 		
-		Stack s = new Stack(N);
+		MyStack s = new MyStack(N);
 		
 		// 주어진 숫자 돌면서 해당 숫자가 나올 때 까지 stack push/pop 반복 
 		for(int i=0; i<N; i++) {
@@ -58,12 +58,12 @@ public class silver_1874 {
 	}
 }
 
-class Stack {
+class MyStack {
 	private int[] stack;
 	private int topIndex;
 	private int item;
 	
-	public Stack(int N) {
+	public MyStack(int N) {
 		stack = new int[N];
 		topIndex = -1;
 		item = 0;
