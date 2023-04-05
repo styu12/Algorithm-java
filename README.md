@@ -1,4 +1,4 @@
-# Algorithm - java
+# PS-algorithm
 
 ## ProblemSolving at Baekjoon
 - binarySearch
